@@ -34,7 +34,7 @@ nltk.download("punkt", quiet=True)
 nltk.download("wordnet", quiet=True)
 
 #Import json file.
-data_file = open('intents.json').read()
+data_file = open('corpus.json').read()
 data = json.loads(data_file)
 
 #Create data for X and Y:
