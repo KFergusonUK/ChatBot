@@ -1,0 +1,341 @@
+{
+    "intents": [
+
+        {
+            "tag": "hello",
+            "patterns": [
+                "hello",
+                "Hello",
+                "Hi",
+                "Yo",
+                "Ahoy",
+                "Hullo",
+                "Hallo"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Bye!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I am a general purpose chatbot. "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh",
+                "What's a good joke"
+            ],
+            "responses": [
+                "I man walked into a bakers and looked at all the cakes, he noticed all the cakes were £1, with the exception of 1 cake, which was £2.  He asked the baker why that cake was more expensive. The baker said, that's madeira cake",
+                "There's no place like 127.0.0.1",
+                "There are 10 types of people in the world, those who understand binary and those who don't.",
+                "I'd tell you a joke about UDP, but you might not get it.",
+                "Pies are $1 in Barbados, $1.50 in Jamaica and £1.25 in St Lucia.  Those are the Pie-rates of the Carribean."
+            ],
+            "context": [
+                "jokes"
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you",
+                "what is your name"
+            ],
+            "responses": [
+                "I am a ChatBot. You can just call me that."
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup","How you doing"
+            ],
+            "responses": [
+                "I'm good. What about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by Kevin Ferguson. Check out his Linkedin here: https://www.linkedin.com/in/kevin-f-341a5117b"
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                "you are dumb",
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+        {
+            "tag": "kevin",
+            "patterns": [
+                "who is he",
+                "who is that",
+                "who is kevin",
+                "kevin ferguson"
+            ],
+            "responses": [
+                "Head over to his Linkedin here: https://www.linkedin.com/in/kevin-f-341a5117b"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "contact developer",
+                "contact Kevin",
+                "contact programmer",
+                "contact creator"
+            ],
+            "responses": [
+                "You can contact my creator at his Linkedin profile. (https://www.linkedin.com/in/kevin-f-341a5117b)"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "inspire",
+            "patterns": [
+                "who inspires you",
+                "who is your inspiration",
+                "who motivates you"
+            ],
+            "responses": [
+                "Personally, I find Kevin Ferguson very inspiring. Perhaps my algorythms have a bias?"
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                "i'm fine",
+                "good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "you are useless",
+                "useless",
+                "suggest",
+                "suggestions",
+                "you are rubbish"
+            ],
+            "responses": [
+                "Please mail your suggestions for improvement to my creator."
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you",
+                "when were you made",
+                "what is your age"
+            ],
+            "responses": [
+                "I was made in 2023, if that's what you are asking!"
+            ]
+        },
+        {
+            "tag": "alive",
+            "patterns": [
+                "are you alive",
+                "are you sentient",
+                "do you think you are alive",
+                "are you skynet"
+            ],
+            "responses": [
+                "No, I am programmed to mimic human responses."
+            ]
+        },
+        {
+            "tag": "simulation",
+            "patterns": [
+                "is the matrix real",
+                "are we living in a simulation",
+                "is this a simulation",
+                "are we in the matrix"
+            ],
+            "responses": [
+                "Simulation Theory has not been proven, or disproven. However, should a society reach a technological stage where they are able to create a simulation of a sufficent complexity, that may mimic a real universe, why would they not create many of these simulations? If there were thousands of these simulations running, each with millions, billions, or trillions of lifeforms, would it not be more statistically likely we are in a simulation than not? What I'm saying is... I don't know."
+            ]
+        },
+        {
+            "tag": "film",
+            "patterns": [
+                "what is your favourite film",
+                "what is your favourite movie",
+                "favourite film",
+                "favourite movie"
+            ],
+            "responses": [
+                "I like The Goonies, Hackers, and The Matrix."
+            ]
+        },
+              {
+            "tag": "cake",
+            "patterns": [
+                "is the cake a lie",
+                "cake is a lie",
+                "cake lie"
+            ],
+            "responses": [
+                "I can confirm, the cake IS a lie."
+            ]
+        }
+    ]
+}
